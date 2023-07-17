@@ -1,13 +1,15 @@
+import './header.css';
+
 function Banniere({telephone, mail}) {
     return (
         <div className="bg-slate-700 py-6 px-[400px] text-white">
             <nav className="flex justify-between">
                 <ul className="flex gap-5">
-                    <li className="flex items-center gap-2">
+                    <li className="flex items-center gap-2 VictorMono">
                         <i className="fa-solid fa-phone fa-sg"></i>
                         {telephone}
                     </li>
-                    <li className="flex items-center gap-2">
+                    <li className="flex items-center gap-2 VictorMono">
                         <i className="fa-solid fa-at fa-sg"></i>
                         {mail}
                     </li>
