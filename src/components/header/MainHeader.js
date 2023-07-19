@@ -12,8 +12,8 @@ function MainHeader() {
             <h4 className="text-secondary Raleway text-[25px] Raleway-h3 pt-4">Développeur web</h4>
             </div>
             <div className='pt-[100px] flex gap-[20px]'>
-                <a href="https://github.com/Skitroz" target="_blank" rel="noreferrer"><Github className='text-primary' size={35}/></a>
-                <a href="https://fr.linkedin.com/in/matheobtl" target="_blank" rel="noreferrer"><Linkedin className="text-primary" size={35}/></a>
+                <a href="https://github.com/Skitroz" target="_blank" rel="noreferrer"><Github className='text-primary hover:animate-bounce' size={35}/></a>
+                <a href="https://fr.linkedin.com/in/matheobtl" target="_blank" rel="noreferrer"><Linkedin className="text-primary hover:animate-bounce" size={35}/></a>
             </div>
         </div>
     );

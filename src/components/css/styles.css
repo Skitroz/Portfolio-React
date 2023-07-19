@@ -1,0 +1,49 @@
+@keyframes slidein {
+    from {
+        padding-left: 0;
+        /* Hauteur de départ de la bordure */
+    }
+
+    to {
+        padding-left: 8px;
+        /* Hauteur de fin de la bordure */
+    }
+}
+
+.hover-animation {
+    padding-bottom: 10px;
+    position: relative;
+    margin: 0 auto;
+    /* Centrer horizontalement */
+    text-align: center;
+    /* Centrer le contenu du texte */
+    width: 500px;
+    border-bottom: 2px solid transparent;
+    /* Bordure transparente par défaut */
+    transition: border-bottom 0.3s;
+    /* Transition de la bordure */
+}
+
+.hover-animation::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    /* Largeur de départ de la bordure fictive */
+    height: 2px;
+    background-color: black;
+    /* Couleur de la bordure fictive */
+    transition: width 0.3s;
+    /* Transition de la largeur */
+}
+
+.hover-animation:hover::before {
+    width: 100%;
+    /* Largeur de fin de la bordure fictive */
+}
+
+.active {
+    background-color: #9fab9c;
+    /* Choisissez la couleur que vous souhaitez pour la section active */
+}
