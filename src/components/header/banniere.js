@@ -1,16 +1,17 @@
 import { AtSign, Github, Instagram, Linkedin, Phone } from 'lucide-react';
-import './header.css';
+import './police.css';
 
 function Banniere({telephone, mail}) {
+
     return (
         <div className="bg-secondary py-6 px-[400px] h-[8vh]">
             <nav className="flex justify-between">
                 <ul className="flex gap-5">
-                    <li className="flex items-center gap-2 Raleway text-text">
+                    <li className="flex items-center gap-2 Raleway-h3 text-text">
                         <Phone />
                         {telephone}
                     </li>
-                    <li className="flex items-center gap-2 Raleway text-text">
+                    <li className="flex items-center gap-2 Raleway-h3 text-text">
                         <AtSign />
                         {mail}
                     </li>
