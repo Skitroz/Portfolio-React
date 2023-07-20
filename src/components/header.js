@@ -1,7 +1,5 @@
-import Banniere from './header/banniere';
 import MainHeader from './header/MainHeader';
 import Accueil from './img/accueil-bg.jpg';
-import BanniereReactive from './header/BanniereReactive';
 
 function Header() {
 
@@ -13,9 +11,7 @@ function Header() {
 
     return (
         <div style={backgroundImage} className="h-screen bg-background">
-            <Banniere telephone={"06 38 17 69 64"} mail={"contact@matheobatelier.fr"}/>
             <MainHeader />
-            <BanniereReactive />
         </div>
     );
 }

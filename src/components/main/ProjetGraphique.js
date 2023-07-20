@@ -9,13 +9,16 @@ function ProjetGraphique() {
             <section className='Raleway'>
                 <div className="flex justify-center items-center gap-[150px] pb-[75px]">
                     <article className="text-center w-[700px] border-[1px] border-gray-400 pb-[5px]">
-                        <img src={LogoMatheo} alt='Logo Mathéo' className='pb-8' />
+                        <div className='flex justify-center items-center pt-[10px]'>
+                        <img src={LogoMatheo} alt='Logo Mathéo' className='pb-8 w-[680px] h-[600px]' />
+                        </div>
                         <h3 className='Raleway-h3 text-xl pb-2'>Logo floral avec citation</h3>
-                        <p className='Raleway-p pb-[10px]'>Logo réalisé au cours de la première année à La Normandie Web School inspirant
-                            de la première lettre de mon prénom.</p>
+                        <p className='Raleway-p pb-[10px]'>Logo s'inspirant de la première lettre de mon prénom.</p>
                     </article>
                     <article className="text-center w-[700px] border-[1px] border-gray-400 pb-[5px]">
-                        <img src={Iphone} alt='Mockup iphone' humain entre vos mains className='pb-8' />
+                        <div className='flex justify-center items-center pt-[10px]'>
+                        <img src={Iphone} alt='Mockup iphone' humain entre vos mains className='pb-8 w-[680px] h-[600px]' />
+                        </div>
                         <h3 className='Raleway-h3 text-xl pb-2'>Mockup</h3>
                         <p className='Raleway-p pb-[10px]'>Mockup réalisé au cours de la première année à La Normandie Web School.</p>
                     </article>
